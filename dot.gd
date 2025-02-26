@@ -13,4 +13,4 @@ func _process(delta: float) -> void:
 
 
 func _on_area_2d_mouse_entered() -> void:
-	Mouse_enter.emit()
+	Mouse_enter.emit(name, global_position)
