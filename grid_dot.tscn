@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://bqkxtk4w010fo"]
+
+[ext_resource type="PackedScene" uid="uid://djj42ywprcxu3" path="res://dot.tscn" id="1_santi"]
+
+[node name="GridDot" type="Node2D"]
+
+[node name="Dot" parent="." instance=ExtResource("1_santi")]
+position = Vector2(227, 157)
+
+[node name="Dot2" parent="." instance=ExtResource("1_santi")]
+position = Vector2(475, 92)
+
+[node name="Dot3" parent="." instance=ExtResource("1_santi")]
+position = Vector2(704, 152)
+
+[node name="Dot4" parent="." instance=ExtResource("1_santi")]
+position = Vector2(119, 335)
+
+[node name="Dot5" parent="." instance=ExtResource("1_santi")]
+position = Vector2(482, 350)
+
+[node name="Dot6" parent="." instance=ExtResource("1_santi")]
+position = Vector2(819, 345)
+
+[node name="Dot7" parent="." instance=ExtResource("1_santi")]
+position = Vector2(234, 554)
+
+[node name="Dot8" parent="." instance=ExtResource("1_santi")]
+position = Vector2(479, 635)
+
+[node name="Dot9" parent="." instance=ExtResource("1_santi")]
+position = Vector2(709, 571)

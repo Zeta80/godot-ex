@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://bfbbpo5tmcc4k"]
+[gd_scene load_steps=2 format=3 uid="uid://bfbbpo5tmcc4k"]
+
+[ext_resource type="PackedScene" uid="uid://bqkxtk4w010fo" path="res://grid_dot.tscn" id="1_lm13h"]
 
 [node name="Esempio" type="Node2D"]
+
+[node name="GridDot" parent="." instance=ExtResource("1_lm13h")]
+position = Vector2(224, 66)
+scale = Vector2(0.653649, 0.653649)
