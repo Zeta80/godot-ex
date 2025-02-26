@@ -19,3 +19,4 @@ scale = Vector2(6.53784, 6.53784)
 shape = SubResource("CircleShape2D_abv5k")
 
 [connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_shape_entered" from="Area2D" to="." method="_on_area_2d_mouse_shape_entered"]

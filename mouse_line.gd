@@ -15,7 +15,10 @@ func _process(delta: float) -> void:
 
 func addPointDot(nome, posizione):
 	line_2d.add_point(posizione)
-	print(nome, posizione)
+	if pressed:
+		print(nome, posizione)
+
+
 
 func updateMouseState():
 	if Input.is_action_pressed("click"):
