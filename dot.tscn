@@ -1,10 +1,12 @@
-[gd_scene load_steps=3 format=3 uid="uid://djj42ywprcxu3"]
+[gd_scene load_steps=4 format=3 uid="uid://djj42ywprcxu3"]
 
 [ext_resource type="Texture2D" uid="uid://lrd313q356jl" path="res://icon.svg" id="1_atobw"]
+[ext_resource type="Script" path="res://dot.gd" id="1_vjcje"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_abv5k"]
 
 [node name="Dot" type="Node2D"]
+script = ExtResource("1_vjcje")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(1, -1)
@@ -15,3 +17,5 @@ texture = ExtResource("1_atobw")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 scale = Vector2(6.53784, 6.53784)
 shape = SubResource("CircleShape2D_abv5k")
+
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
