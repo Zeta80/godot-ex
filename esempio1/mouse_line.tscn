@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://0doy1p7giklp"]
 
-[ext_resource type="Script" path="res://mouse_line.gd" id="1_0jwd3"]
+[ext_resource type="Script" uid="uid://dcpji6uvyu0sv" path="res://esempio1/mouse_line.gd" id="1_0jwd3"]
 
 [sub_resource type="Curve" id="Curve_58bwh"]
 _data = [Vector2(0.131579, 0.0879121), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]

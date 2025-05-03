@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bqkxtk4w010fo"]
 
-[ext_resource type="PackedScene" uid="uid://djj42ywprcxu3" path="res://dot.tscn" id="1_santi"]
+[ext_resource type="PackedScene" uid="uid://djj42ywprcxu3" path="res://esempio1/dot.tscn" id="1_santi"]
 
 [node name="GridDot" type="Node2D"]
 

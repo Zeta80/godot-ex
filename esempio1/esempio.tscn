@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bfbbpo5tmcc4k"]
 
-[ext_resource type="PackedScene" uid="uid://bqkxtk4w010fo" path="res://grid_dot.tscn" id="1_lm13h"]
-[ext_resource type="PackedScene" uid="uid://0doy1p7giklp" path="res://mouse_line.tscn" id="2_vbwln"]
+[ext_resource type="PackedScene" uid="uid://bqkxtk4w010fo" path="res://esempio1/grid_dot.tscn" id="1_lm13h"]
+[ext_resource type="PackedScene" uid="uid://0doy1p7giklp" path="res://esempio1/mouse_line.tscn" id="2_vbwln"]
 
 [node name="Esempio" type="Node2D"]
 
